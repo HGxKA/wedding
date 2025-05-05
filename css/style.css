@@ -33,6 +33,58 @@ html {
   font-size: 18px;
 }
 
+:root {
+  /* 폰트사이즈 */
+  --Text-Title: 20px;
+  --Text-Subtitle: 20px;
+  --Text-SectionTitle: 18px;
+  --Text-Button: 14px;
+  --Text-ButtonLg: 16px;
+  --Text-Paragraph: 15px;
+  --Text-SectionMainTitle: 16px;
+  --Text-SectionSubTitle: 14px;
+  --Text-Supported: 14px;
+  --Text-Supported-2: 12px;
+  --Text-Supported-3: 10px;
+
+  /* 간격값 */
+  --Space-Sm: 8px;
+  --Space-Md: 16px;
+  --Space-Lg: 32px;
+
+  /* 컬러값 */
+  --ColorBrand: #F4F3F1;
+  --ColorBrandHighLight: #7c44fc;
+  /* --ColorBase:#F1EFE4; */
+  --ColorBase: #F5F7F7;
+  --ColorSurface: #fff;
+  --ColorBaseBlue:#E9ECEF;
+  --ColorTextPrimary: #333;
+  --ColorTextSecondary: #666;
+  --ColorTextTertiary: #999;
+  --ColorTextOnSurface: #fff;
+  --ColorBorder5: #0000000d;
+  --ColorBorder10: #0000001a;
+  --ColorBorder20: rgb(0,0,0,0.2);
+  --ColorBorderSolid: #EFF0F5;
+  --ColorTintBlack: #111111;
+  --ColorTintDisabled: rgb(157, 157, 157);
+  --ColorTintRed: #ff0000;
+  --ColorTintPink: #ec58d9;
+  --ColorTintGold: #9E836D;
+
+  /* R값 */
+  --BorderRadius-Xs: 4px;
+  --BorderRadius-Md: 8px;
+  --BorderRadius-Lg: 16px;
+  --BorderRadius-XL: 24px;
+  --BorderRadius-XXL: 40px;
+  --BorderRadius-Capsule: 1000px;
+
+  /* Transition */
+  --transition: 100ms all;
+}
+
 body {
   font-family: "Dosis", sans-serif;
   background-color: #f4f3f1;
@@ -405,13 +457,97 @@ a:focus {
 }
 
 
+.wedding-date-section {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  max-width: 540px;
+  text-align: center;
+  font-family: "KoPub Batang", "serif";
+  margin-bottom: 2rem;
+}
+.wedding-date-section .calendar {
+  width: 100%;
+}
 
+.wedding-date-section .sec-tit {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #222;
+  letter-spacing: 0.45em;
+  align-items: center;
+  gap: 12px;
+}
 
+.wedding-date-section .sec-txt {
+  font-size: 1.0rem;
+  color: #222;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 0.2;
+  word-break: keep-all;
+  white-space: pre-line;
+  font-family: "KoPub Batang", "serif";
+}
 
+.wedding-date-section .sec-tit .month {
+  font-size: 52px;
+  font-family: 'Playfair Display', sans-serif !important;
+  text-align: center;
+  line-height: 1;
+}
 
+.wedding-date-section .sec-tit .day {
+  font-size: 52px;
+  font-family: 'Playfair Display', sans-serif !important;
+  text-align: center;
+  line-height: 1;
+}
 
+.wedding-date-section .sec-tit .line {
+  display: inline-block;
+  transform: rotate(22deg);
+  margin-top: 18px;
+  background: var(--ColorTintBlack);
+  width: 1px;
+  height: 22px;
+}
 
+.wedding-date-hr {
+  border: none;
+  border-top: 2px solid #888;
+  margin: 0 0 2.5rem 0;
+  width: 95%;
+}
 
+.wedding-date-section .calendar td {
+  text-align: center;
+  padding: 10px;
+}
+
+.wedding-date-section .calendar thead td {
+  font-weight: bold;
+}
+
+.wedding-date-section .calendar .sun {
+  color: var(--ColorTintRed);
+}
+
+.wedding-date-section .calendar .sat {
+  color: var(--ColorTintBlue);
+}
+
+.wedding-date-section .calendar .out {
+  color: var(--ColorTintDisabled);
+}
+
+.wedding-date-section .calendar .dday {
+  background: var(--ColorTextPrimary);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 50%;
+}
 
 
 @media (max-width: 767px) {
@@ -2566,7 +2702,6 @@ a:focus {
 
 .count-down-section:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   position: absolute;
