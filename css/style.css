@@ -3342,6 +3342,35 @@ a:focus {
   color: #888888; /* slightly darker gray for improved readability */
 }
 
+.comment-section {
+  /*** filter ***/
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  font-family: "KoPub Batang", "serif";
+}
+
+.comment-section .comment-hr {
+  border: none;
+  border-top: 2px solid #888;
+  margin: 0 0 2.5rem 0;
+  width: 95%;
+}
+
+.comment-section .sec-tit {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #222;
+  letter-spacing: 0.45em;
+  margin-bottom: 2.8rem;
+  margin-top: 0.8rem;
+}
+
+.comment-section .utterances {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
 /*--------------------------------------------------------------
 #1.2	gallery-section
 --------------------------------------------------------------*/

@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://w.soundcloud.com" crossorigin />
 
     <!-- Page Title -->
@@ -25,6 +23,8 @@
     <link href="images/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"> -->
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
       rel="stylesheet"
@@ -57,22 +57,73 @@
     <!-- font-family: 'Nanum Gothic'; -->
 
     <!-- Critical CSS first -->
+    <link
+      href="css/font-awesome.min.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/flaticon.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="css/animate.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/owl.carousel.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/owl.theme.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/slick.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/slick-theme.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/owl.transitions.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/jquery.fancybox.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      href="css/magnific-popup.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/greeting-section.css" />
     <link rel="stylesheet" href="css/location-section.css" />
-    
+
     <!-- Non-critical CSS with media="print" to load asynchronously -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/flaticon.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/animate.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/owl.carousel.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/owl.theme.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/slick.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/slick-theme.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/owl.transitions.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/jquery.fancybox.css" rel="stylesheet" media="print" onload="this.media='all'" />
-    <link href="css/magnific-popup.css" rel="stylesheet" media="print" onload="this.media='all'" />
+
     <!-- <link rel="stylesheet" href="css/gallery-section.css" /> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -111,7 +162,12 @@
       <section class="hero">
         <div class="hero-slider hero-slider-s1">
           <div class="slide-item">
-            <img src="images/slider/optimized/IMG_0924.jpeg" alt="Wedding background" class="slider-bg" loading="eager" />
+            <img
+              src="images/slider/optimized/IMG_0924.jpeg"
+              alt="Wedding background"
+              class="slider-bg"
+              loading="eager"
+            />
           </div>
         </div>
         <div class="wedding-announcement">
@@ -172,31 +228,31 @@
         </div>
         <div class="map-icons">
           <a href="https://naver.me/GgW8fTWQ">
-              <img
-                alt="naver-map"
-                class="map-icon"
-                id="naver-map"
-                src="images/map/naver-map.png"
-                loading="lazy"
-              />
+            <img
+              alt="naver-map"
+              class="map-icon"
+              id="naver-map"
+              src="images/map/naver-map.png"
+              loading="lazy"
+            />
           </a>
           <a href="https://place.map.kakao.com/10931903">
-              <img
-                alt="kakao-map"
-                class="map-icon"
-                id="kakao-map"
-                src="images/map/kakao-map.png"
-                loading="lazy"
-              />
+            <img
+              alt="kakao-map"
+              class="map-icon"
+              id="kakao-map"
+              src="images/map/kakao-map.png"
+              loading="lazy"
+            />
           </a>
           <a href="https://tmap.life/ff4ce7e5">
-              <img
-                alt="t-map"
-                class="map-icon"
-                id="t-map"
-                src="images/map/t-map.jpeg"
-                loading="lazy"
-              />
+            <img
+              alt="t-map"
+              class="map-icon"
+              id="t-map"
+              src="images/map/t-map.jpeg"
+              loading="lazy"
+            />
           </a>
         </div>
         <div class="row">
@@ -365,15 +421,29 @@
         <!-- end container -->
       </section>
       <!-- end gallery-section -->
-      <script
-        src="https://utteranc.es/client.js"
-        repo="HGxKA/wedding"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async
-        defer
-      ></script>
+      <section class="comment-section section-padding" id="comment">
+        <hr class="comment-hr" />
+        <div class="sec-tit">방명록</div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-14">
+              <div class="comment-container">
+                <div id="utterances">
+                  <script
+                    src="https://utteranc.es/client.js"
+                    repo="HGxKA/wedding"
+                    issue-term="pathname"
+                    theme="github-light"
+                    crossorigin="anonymous"
+                    async
+                    defer
+                  ></script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- start footer -->
       <footer
@@ -381,11 +451,6 @@
         data-bg-image="images/footer-bg.jpg"
         data-speed="7"
       >
-        <div class="back-to-top">
-          <a href="#" class="back-to-top-btn"
-            ><span><i class="fi flaticon-cupid"></i></span
-          ></a>
-        </div>
         <div class="container">
           <div class="row">
             <div class="col-lg-14">
@@ -399,11 +464,11 @@
     </div>
     <!-- Critical scripts loaded first -->
     <script src="js/jquery.min.js"></script>
-    
+
     <!-- Defer non-critical scripts -->
     <script src="js/bootstrap.min.js" defer></script>
     <script src="js/jquery-plugin-collection.js" defer></script>
-    
+
     <!-- Custom script for this template -->
     <script src="js/script.js" defer></script>
   </body>

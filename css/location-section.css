@@ -10,7 +10,6 @@
   font-family: "KoPub Batang", "serif";
 }
 
-/* Map icons and buttons styling */
 .location-section .map-icons {
   display: flex;
   justify-content: center;
@@ -43,21 +42,14 @@
   }
 
   .location-section .map-icons {
-    gap: 1.2rem;
+    gap: 1.5rem;
   }
 
   .location-section .map-icon {
-    width: 60px;
-    height: 60px;
-    max-width: 20vw;
-    max-height: 20vw;
-  }
-
-  .location-section .smaller-icons .map-icon {
-    width: 40px;
-    height: 40px;
-    max-width: 16vw;
-    max-height: 16vw;
+    width: 80px;
+    height: 80px;
+    max-width: 30vw;
+    max-height: 30vw;
   }
 }
 
@@ -136,40 +128,6 @@
   font-weight: 400;
 }
 
-.location-section .map-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.2rem;
-  margin: 1.5rem 0 2.2rem 0;
-}
-.location-section .map-icon {
-  width: 60px;
-  height: 60px;
-  max-width: 20vw;
-  max-height: 20vw;
-  object-fit: contain;
-  border-radius: 12px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
-  transition: transform 0.18s, box-shadow 0.18s;
-  background: #fff;
-}
-.location-section .map-icon:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 600px) {
-  .location-section .map-icons {
-    gap: 1.2rem;
-  }
-  .location-section .map-icon {
-    width: 50px;
-    height: 50px;
-    max-width: 16vw;
-    max-height: 16vw;
-  }
-}
-
 .location-section .family-line .relation {
   flex-basis: 44px;
   text-align: center;
@@ -178,40 +136,6 @@
   margin-left: 0.13rem;
   margin-right: 0.13rem;
   white-space: nowrap;
-}
-
-.location-section .map-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.2rem;
-  margin: 1.5rem 0 2.2rem 0;
-}
-.location-section .map-icon {
-  width: 60px;
-  height: 60px;
-  max-width: 20vw;
-  max-height: 20vw;
-  object-fit: contain;
-  border-radius: 12px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
-  transition: transform 0.18s, box-shadow 0.18s;
-  background: #fff;
-}
-.location-section .map-icon:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 600px) {
-  .location-section .map-icons {
-    gap: 1.2rem;
-  }
-  .location-section .map-icon {
-    width: 50px;
-    height: 50px;
-    max-width: 16vw;
-    max-height: 16vw;
-  }
 }
 
 .location-section .family-line .name {
@@ -223,79 +147,11 @@
   margin-left: 0.5rem;
 }
 
-.location-section .map-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.2rem;
-  margin: 1.5rem 0 2.2rem 0;
-}
-.location-section .map-icon {
-  width: 60px;
-  height: 60px;
-  max-width: 20vw;
-  max-height: 20vw;
-  object-fit: contain;
-  border-radius: 12px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
-  transition: transform 0.18s, box-shadow 0.18s;
-  background: #fff;
-}
-.location-section .map-icon:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 600px) {
-  .location-section .map-icons {
-    gap: 1.2rem;
-  }
-  .location-section .map-icon {
-    width: 50px;
-    height: 50px;
-    max-width: 16vw;
-    max-height: 16vw;
-  }
-}
-
 .location-section .family-line .slsb {
   font-size: 1.35rem;
   font-weight: 600;
   color: #222;
   margin-left: 0.5rem;
-}
-
-.location-section .map-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.2rem;
-  margin: 1.5rem 0 2.2rem 0;
-}
-.location-section .map-icon {
-  width: 60px;
-  height: 60px;
-  max-width: 20vw;
-  max-height: 20vw;
-  object-fit: contain;
-  border-radius: 12px;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
-  transition: transform 0.18s, box-shadow 0.18s;
-  background: #fff;
-}
-.location-section .map-icon:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 600px) {
-  .location-section .map-icons {
-    gap: 1.2rem;
-  }
-  .location-section .map-icon {
-    width: 40px;
-    height: 40px;
-    max-width: 16vw;
-    max-height: 16vw;
-  }
 }
 
 .location-section .family-line .gwangye {
