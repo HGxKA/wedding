@@ -92,6 +92,8 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -161,6 +163,9 @@ a:focus {
 
 .section-padding {
   padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 1199px) {
@@ -461,6 +466,20 @@ a:focus {
   text-align: center;
   font-family: "KoPub Batang", "serif";
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.wedding-date-section .row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .wedding-date-section .calendar {
   margin: 0 auto;
@@ -468,6 +487,7 @@ a:focus {
   align-items: center;
   justify-content: center;
   width: 90%;
+  max-width: 100%;
 }
 
 .wedding-date-section .sec-tit {
@@ -477,6 +497,10 @@ a:focus {
   letter-spacing: 0.45em;
   align-items: center;
   gap: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .wedding-date-section .sec-txt {
@@ -1799,9 +1823,11 @@ a:focus {
   position: relative;
   line-height: 0;
   font-size: 0;
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
   /** slider controls **/
   /*** arrow hover ***/
 }
