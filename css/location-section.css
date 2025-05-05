@@ -19,10 +19,10 @@
 }
 
 .location-section .map-icon {
-  width: 90px;
-  height: 90px;
-  max-width: 40vw;
-  max-height: 40vw;
+  width: 70px;
+  height: 70px;
+  max-width: 30vw;
+  max-height: 30vw;
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
