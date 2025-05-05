@@ -177,7 +177,7 @@ a:focus {
 /* Mobile-specific fancybox improvements */
 @media (max-width: 767px) {
   .fancybox-overlay {
-    background: rgba(0, 0, 0, 0.7); /* Lighter background for mobile */
+    background: rgba(0, 0, 0, 0.5); /* Lighter background for mobile */
   }
   
   .fancybox-inner {
@@ -188,7 +188,7 @@ a:focus {
     max-width: 100% !important;
     max-height: 100% !important;
     display: block !important;
-    filter: brightness(1.2); /* Brighten images on mobile */
+    filter: brightness(1.5); /* Brighten images on mobile */
   }
   
   .fancybox-skin {
