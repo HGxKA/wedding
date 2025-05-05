@@ -1,5 +1,5 @@
-/* Story Section - styled to match sample photo */
-.story-section {
+/* Location Section - styled to match sample photo */
+.location-section {
     background: none;
     border-radius: 0;
     box-shadow: none;
@@ -9,13 +9,13 @@
     text-align: center;
     font-family: 'KoPub Batang', 'serif';
 }
-.story-section .greeting-hr {
+.location-section .location-hr {
     border: none;
     border-top: 2px solid #888;
     margin: 0 0 2.5rem 0;
     width: 95%;
 }
-.story-section .sec-tit {
+.location-section .sec-tit {
     font-size: 1.6rem;
     font-weight: bold;
     color: #222;
@@ -23,7 +23,7 @@
     margin-bottom: 2.8rem;
     margin-top: 0.8rem;
 }
-.story-section .sec-txt {
+.location-section .sec-txt {
     font-size: 1.27rem;
     color: #222;
     margin-bottom: 3.8rem;
@@ -32,14 +32,14 @@
     white-space: pre-line;
     font-family: 'KoPub Batang', 'serif';
 }
-.story-section .family-block {
+.location-section .family-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 3.7rem;
   gap: 0.3rem;
 }
-.story-section .family-line {
+.location-section .family-line {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,14 +50,14 @@
   color: #222;
   font-family: 'KoPub Batang', 'serif';
 }
-.story-section .family-line .parent {
+.location-section .family-line .parent {
   flex-basis: 60px;
   text-align: center;
   font-size: 1.01rem;
   color: #444;
   font-weight: 400;
 }
-.story-section .family-line .dot {
+.location-section .family-line .dot {
   flex-basis: 18px;
   display: flex;
   align-items: center;
@@ -69,14 +69,14 @@
   line-height: 1;
   font-family: 'KoPub Batang', serif;
 }
-.story-section .family-line .of {
+.location-section .family-line .of {
   flex-basis: 28px;
   text-align: center;
   font-size: 1.01rem;
   color: #888;
   font-weight: 400;
 }
-.story-section .family-line .relation {
+.location-section .family-line .relation {
   flex-basis: 44px;
   text-align: center;
   font-size: 0.97rem;
@@ -85,7 +85,7 @@
   margin-right: 0.13rem;
   white-space: nowrap;
 }
-.story-section .family-line .name {
+.location-section .family-line .name {
   flex-basis: 60px;
   text-align: left;
   font-size: 1.35rem;
@@ -93,25 +93,25 @@
   color: #222;
   margin-left: 0.5rem;
 }
-.story-section .family-line .slsb {
+.location-section .family-line .slsb {
     font-size: 1.35rem;
     font-weight: 600;
     color: #222;
     margin-left: 0.5rem;
 }
-.story-section .family-line .gwangye {
+.location-section .family-line .gwangye {
     font-size: 0.97rem;
     color: #888;
     margin-left: 0.13rem;
     margin-right: 0.13rem;
 }
-.story-section .family-line .default {
+.location-section .family-line .default {
     font-size: 1.01rem;
     color: #888;
     margin-left: 0.13rem;
     margin-right: 0.13rem;
 }
-.story-section .gt-span.bul {
+.location-section .gt-span.bul {
     display: inline-block;
     width: 6px;
     height: 6px;
@@ -121,24 +121,24 @@
     vertical-align: middle;
 }
 @media (max-width: 600px) {
-    .story-section {
+    .location-section {
         max-width: 98vw;
     }
-    .story-section .sec-tit {
+    .location-section .sec-tit {
         font-size: 1.07rem;
         margin-bottom: 2rem;
     }
-    .story-section .sec-txt {
+    .location-section .sec-txt {
         font-size: 0.97rem;
         margin-bottom: 2.3rem;
     }
-    .story-section .family-block {
+    .location-section .family-block {
         margin-top: 2.2rem;
     }
-    .story-section .family-line {
+    .location-section .family-line {
         font-size: 1.02rem;
     }
-    .story-section .family-line .slsb {
+    .location-section .family-line .slsb {
         font-size: 1.13rem;
     }
 
