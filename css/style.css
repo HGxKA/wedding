@@ -3382,7 +3382,8 @@ a:focus {
 .gallery-section .masonry-gallery .grid {
   width: 33.33%;
   float: left;
-  padding: 0 7.5px 15px;
+  padding: 7.5px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 991px) {
@@ -3398,10 +3399,18 @@ a:focus {
 }
 
 @media (max-width: 550px) {
+  .gallery-section .masonry-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 0;
+  }
   .gallery-section .masonry-gallery .grid {
-    width: 100%;
+    width: 50%;
     float: none;
-    padding: 0 0 15px;
+    padding: 0;
+    box-sizing: border-box;
+    justify-self: stretch;
   }
 }
 
