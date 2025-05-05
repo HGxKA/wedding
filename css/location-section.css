@@ -7,7 +7,8 @@
   margin: 0 auto 0 auto;
   max-width: 540px;
   text-align: center;
-  font-family: "KoPub Batang", "serif";
+  justify-content: center;
+  font-family: "Nanum Myeongjo", "serif";
 }
 
 .location-section .map-icons {
@@ -55,7 +56,7 @@
 
 .location-section .location-hr {
   border: none;
-  border-top: 2px solid #888;
+  border-top: 2px solid #999;
   margin: 0 0 2.5rem 0;
   width: 95%;
 }
@@ -65,7 +66,7 @@
   font-weight: bold;
   color: #222;
   letter-spacing: 0.45em;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1rem;
   margin-top: 0.8rem;
 }
 
@@ -76,7 +77,7 @@
   line-height: 0.2;
   word-break: keep-all;
   white-space: pre-line;
-  font-family: "KoPub Batang", "serif";
+  font-family: "Nanum Myeongjo", "serif";
 }
 
 .location-section .family-block {
@@ -96,7 +97,7 @@
   margin: 0.3rem 0 0.3rem 0;
   font-size: 1.22rem;
   color: #222;
-  font-family: "KoPub Batang", "serif";
+  font-family: "Nanum Myeongjo", "serif";
 }
 
 .location-section .family-line .parent {
@@ -113,18 +114,18 @@
   align-items: center;
   justify-content: center;
   font-size: 1.35rem;
-  color: #888;
+  color: #999;
   margin: 0 0.5em;
   height: 100%;
   line-height: 1;
-  font-family: "KoPub Batang", serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .location-section .family-line .of {
   flex-basis: 28px;
   text-align: center;
   font-size: 1.01rem;
-  color: #888;
+  color: #999;
   font-weight: 400;
 }
 
@@ -132,7 +133,7 @@
   flex-basis: 44px;
   text-align: center;
   font-size: 0.97rem;
-  color: #888;
+  color: #999;
   margin-left: 0.13rem;
   margin-right: 0.13rem;
   white-space: nowrap;
@@ -156,14 +157,14 @@
 
 .location-section .family-line .gwangye {
   font-size: 0.97rem;
-  color: #888;
+  color: #999;
   margin-left: 0.13rem;
   margin-right: 0.13rem;
 }
 
 .location-section .family-line .default {
   font-size: 1.01rem;
-  color: #888;
+  color: #999;
   margin-left: 0.13rem;
   margin-right: 0.13rem;
 }
@@ -173,7 +174,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #888;
+  background: #999;
   margin: 0 7px 0 7px;
   vertical-align: middle;
 }
@@ -198,4 +199,17 @@
 
 .location-section .family-line .slsb {
   font-size: 1.13rem;
+}
+
+.location-section .transport {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.location-section .transport .title {
+  font-size: 1.02rem;
+  font-weight: bold;
 }

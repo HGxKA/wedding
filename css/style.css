@@ -47,16 +47,13 @@ html {
   --Text-Supported-2: 12px;
   --Text-Supported-3: 10px;
 
-  /* 간격값 */
   --Space-Sm: 8px;
   --Space-Md: 16px;
   --Space-Lg: 32px;
 
-  /* 컬러값 */
-  --ColorBrand: #F4F3F1;
+  --ColorBrand: #F9F9F9;
   --ColorBrandHighLight: #7c44fc;
-  /* --ColorBase:#F1EFE4; */
-  --ColorBase: #F5F7F7;
+  --ColorBase: #FFF;
   --ColorSurface: #fff;
   --ColorBaseBlue:#E9ECEF;
   --ColorTextPrimary: #333;
@@ -87,7 +84,7 @@ html {
 
 body {
   font-family: "Dosis", sans-serif;
-  background-color: #f4f3f1;
+  background-color: #f9f9f9;
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -467,13 +464,14 @@ a:focus {
 }
 .wedding-date-section .calendar {
   margin: 0 auto;
+  margin-bottom: 3rem;
   align-items: center;
   justify-content: center;
   width: 90%;
 }
 
 .wedding-date-section .sec-tit {
-  font-size: 1.6rem;
+  font-size: 1.0rem;
   font-weight: bold;
   color: #222;
   letter-spacing: 0.45em;
@@ -485,7 +483,7 @@ a:focus {
   font-size: 1.0rem;
   color: #222;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   line-height: 0.2;
   word-break: keep-all;
   white-space: pre-line;
@@ -517,7 +515,7 @@ a:focus {
 
 .wedding-date-hr {
   border: none;
-  border-top: 2px solid #888;
+  border-top: 2px solid #999;
   margin: 0 0 2.5rem 0;
   width: 95%;
 }
@@ -1799,43 +1797,28 @@ a:focus {
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  height: calc(100vh - 90px);
-  min-height: 700px;
-  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  display: block;
+  padding: 0;
+  margin: 0;
   /** slider controls **/
   /*** arrow hover ***/
 }
 
-@media (max-width: 1199px) {
-  .hero {
-    min-height: 600px;
-  }
-}
-
-@media (max-width: 991px) {
-  .hero {
-    min-height: 500px;
-  }
+.hero .hero-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F3F1;
 }
 
 .hero .slide-item {
-  height: 100vh;
-  min-height: 700px;
+  height: auto;
   position: relative;
   background-repeat: no-repeat;
-  position: relative;
-}
-
-@media (max-width: 1199px) {
-  .hero .slide-item {
-    min-height: 600px;
-  }
-}
-
-@media (max-width: 991px) {
-  .hero .slide-item {
-    min-height: 500px;
-  }
 }
 
 .hero .slide-item .slider-bg {
@@ -3490,7 +3473,7 @@ a:focus {
 
 .comment-section .comment-hr {
   border: none;
-  border-top: 2px solid #888;
+  border-top: 2px solid #999;
   margin: 0 0 2.5rem 0;
   width: 95%;
 }
@@ -3521,7 +3504,7 @@ a:focus {
 
 .gallery-section .gallery-hr {
   border: none;
-  border-top: 2px solid #888;
+  border-top: 2px solid #999;
   margin: 0 0 2.5rem 0;
   width: 95%;
 }

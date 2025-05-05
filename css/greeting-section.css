@@ -7,11 +7,12 @@
   margin: 0 auto 0 auto;
   max-width: 540px;
   text-align: center;
-  font-family: "KoPub Batang", "serif";
+  justify-content: center;
+  font-family: "Nanum Myeongjo", "serif";
 }
 .greeting-section .greeting-hr {
   border: none;
-  border-top: 2px solid #888;
+  border-top: 2px solid #999;
   margin: 0 0 2.5rem 0;
   width: 95%;
 }
@@ -30,7 +31,7 @@
   line-height: 1.2;
   word-break: keep-all;
   white-space: pre-line;
-  font-family: "KoPub Batang", "serif";
+  font-family: "Nanum Myeongjo", "serif";
 }
 .greeting-section .family-block {
   display: flex;
@@ -48,7 +49,7 @@
   margin: 0.3rem 0 0.3rem 0;
   font-size: 1.22rem;
   color: #222;
-  font-family: "KoPub Batang", "serif";
+  font-family: "Nanum Myeongjo", "serif";
 }
 .greeting-section .family-line .parent {
   flex-basis: 60px;
@@ -63,24 +64,24 @@
   align-items: center;
   justify-content: center;
   font-size: 1.35rem;
-  color: #888;
+  color: #999;
   margin: 0 0.5em;
   height: 100%;
   line-height: 1;
-  font-family: "KoPub Batang", serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 .greeting-section .family-line .of {
   flex-basis: 28px;
   text-align: center;
   font-size: 1.01rem;
-  color: #888;
+  color: #999;
   font-weight: 400;
 }
 .greeting-section .family-line .relation {
   flex-basis: 44px;
   text-align: center;
   font-size: 0.97rem;
-  color: #888;
+  color: #999;
   margin-left: 0.13rem;
   margin-right: 0.13rem;
   white-space: nowrap;
@@ -101,13 +102,13 @@
 }
 .greeting-section .family-line .gwangye {
   font-size: 0.97rem;
-  color: #888;
+  color: #999;
   margin-left: 0.13rem;
   margin-right: 0.13rem;
 }
 .greeting-section .family-line .default {
   font-size: 1.01rem;
-  color: #888;
+  color: #999;
   margin-left: 0.13rem;
   margin-right: 0.13rem;
 }
@@ -116,7 +117,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #888;
+  background: #999;
   margin: 0 7px 0 7px;
   vertical-align: middle;
 }
