@@ -1,0 +1,144 @@
+/* Greeting Section - styled to match sample photo */
+.greeting-section {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    max-width: 540px;
+    text-align: center;
+    font-family: 'KoPub Batang', 'serif';
+}
+.greeting-section .greeting-hr {
+    border: none;
+    border-top: 2px solid #888;
+    margin: 0 0 2.5rem 0;
+    width: 95%;
+}
+.greeting-section .sec-tit {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 0.45em;
+    margin-bottom: 2.8rem;
+    margin-top: 0.8rem;
+}
+.greeting-section .sec-txt {
+    font-size: 1.27rem;
+    color: #222;
+    margin-bottom: 3.8rem;
+    line-height: 1.8;
+    word-break: keep-all;
+    white-space: pre-line;
+    font-family: 'KoPub Batang', 'serif';
+}
+.greeting-section .family-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.7rem;
+  gap: 0.3rem;
+}
+.greeting-section .family-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 410px;
+  margin: 0.3rem 0 0.3rem 0;
+  font-size: 1.22rem;
+  color: #222;
+  font-family: 'KoPub Batang', 'serif';
+}
+.greeting-section .family-line .parent {
+  flex-basis: 60px;
+  text-align: center;
+  font-size: 1.01rem;
+  color: #444;
+  font-weight: 400;
+}
+.greeting-section .family-line .dot {
+  flex-basis: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: #888;
+  margin: 0 0.5em;
+  height: 100%;
+  line-height: 1;
+  font-family: 'KoPub Batang', serif;
+}
+.greeting-section .family-line .of {
+  flex-basis: 28px;
+  text-align: center;
+  font-size: 1.01rem;
+  color: #888;
+  font-weight: 400;
+}
+.greeting-section .family-line .relation {
+  flex-basis: 44px;
+  text-align: center;
+  font-size: 0.97rem;
+  color: #888;
+  margin-left: 0.13rem;
+  margin-right: 0.13rem;
+  white-space: nowrap;
+}
+.greeting-section .family-line .name {
+  flex-basis: 60px;
+  text-align: left;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #222;
+  margin-left: 0.5rem;
+}
+.greeting-section .family-line .slsb {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #222;
+    margin-left: 0.5rem;
+}
+.greeting-section .family-line .gwangye {
+    font-size: 0.97rem;
+    color: #888;
+    margin-left: 0.13rem;
+    margin-right: 0.13rem;
+}
+.greeting-section .family-line .default {
+    font-size: 1.01rem;
+    color: #888;
+    margin-left: 0.13rem;
+    margin-right: 0.13rem;
+}
+.greeting-section .gt-span.bul {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #888;
+    margin: 0 7px 0 7px;
+    vertical-align: middle;
+}
+@media (max-width: 600px) {
+    .greeting-section {
+        max-width: 98vw;
+    }
+    .greeting-section .sec-tit {
+        font-size: 1.07rem;
+        margin-bottom: 2rem;
+    }
+    .greeting-section .sec-txt {
+        font-size: 0.97rem;
+        margin-bottom: 2.3rem;
+    }
+    .greeting-section .family-block {
+        margin-top: 2.2rem;
+    }
+    .greeting-section .family-line {
+        font-size: 1.02rem;
+    }
+    .greeting-section .family-line .slsb {
+        font-size: 1.13rem;
+    }
+}
