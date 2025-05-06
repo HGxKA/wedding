@@ -1,0 +1,152 @@
+#map {
+  margin: auto;
+  width: 100%;
+  height: 240px;
+}
+
+.map-wrap {
+  margin: 1px 0;
+  padding: 40px 0;
+}
+.waytocome-wrap {
+  padding: 0 var(--common-margin-lr);
+  text-align: left;
+}
+.waytocome-wrap .box {
+  display: flex;
+  padding: 20px 0;
+}
+.waytocome-wrap .box:last-child {
+  border: 0;
+}
+.waytocome-wrap .box .left {
+  flex: 36px;
+  padding: 10px 10px 0 0;
+}
+.waytocome-wrap .box .right {
+  flex: 999;
+}
+.waytocome-wrap .box .icon-circle {
+  background: hsla(0, 0%, 100%, 0.5);
+  border: 1px solid var(--border-light-color);
+  width: 1.2rem;
+  height: 1.2rem;
+  line-height: 0;
+  padding: 8px;
+  text-align: center;
+  border-radius: 32px;
+}
+.waytocome-wrap .box svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: var(--icon-color);
+}
+.waytocome-wrap .title {
+  font-size: 1rem;
+  color: var(--title-text-color);
+}
+.waytocome-wrap .title > span {
+  vertical-align: middle;
+}
+.waytocome-wrap .content {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+.waytocome-wrap .content p {
+  margin-block-end: 0.7rem;
+  margin-block-start: 0.7rem;
+}
+.map-inner {
+  margin: 0 0 10px;
+}
+.map-image-wrap {
+  width: 100%;
+}
+.map-image-wrap > .spacing {
+  margin-bottom: 16px;
+}
+.map-image-wrap > img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.location-wrap {
+  margin: 18px 0 26px;
+}
+.location-hall {
+  color: #000;
+}
+.location-address {
+  font-size: 0.95rem;
+  color: var(--text-light-color);
+}
+.c-map-tools {
+  background: var(--third-bg-color);
+}
+#app #map {
+  height: 15rem;
+}
+#app .c-map-navi {
+  background: var(--third-bg-color);
+  padding: 6px 10px;
+}
+
+.c-map-tools {
+  text-align: left;
+  padding: 4px 20px;
+  display: flex;
+}
+.c-map-tools > .button {
+  flex: 1;
+  cursor: pointer;
+  text-align: center;
+}
+.c-map-tools > .button > span {
+  vertical-align: middle;
+  font-size: 0.75rem;
+}
+.c-map-tools svg {
+  width: 14px;
+  height: 14px;
+  fill: #525252;
+  vertical-align: middle;
+}
+.c-map-navi {
+  text-align: left;
+  padding: 6px 10px;
+  display: flex;
+  background: var(--secondary-bg-color);
+  color: #000;
+  font-size: 0.8rem;
+  height: 1.8rem;
+}
+.c-map-navi > div {
+  flex: 1.2;
+  margin: auto;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  border-right: 1px solid rgba(97, 80, 67, 0.15);
+  text-align: center;
+  cursor: pointer;
+}
+.c-map-navi > div:last-child {
+  flex: 1;
+  border-right: 0;
+}
+.c-map-navi > span {
+  display: inline-block;
+  background: rgba(97, 80, 67, 0.15);
+  font-size: 16px;
+  width: 1px;
+  height: 1.1rem;
+  margin: 0.45rem 0;
+}
+.c-map-navi img {
+  position: relative;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  border-radius: 16%;
+}

@@ -1,0 +1,115 @@
+.guestbook-wrap {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.c-guestbook {
+  margin: 0;
+  font-size: 0.86rem;
+}
+.c-guestbook .comments {
+  padding: var(--common-margin-lr);
+  background: var(--secondary-bg-color);
+  border: var(--border-size) solid var(--border-light-color);
+  border-left: 0;
+  border-right: 0;
+}
+.c-guestbook .tools {
+  padding: 10px var(--common-margin-lr);
+}
+.c-guestbook .tools > .writing {
+  display: inline-block;
+  width: 5.5rem;
+  padding: 8px 0;
+}
+.c-guestbook .tools > .writing > button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  line-height: 0;
+}
+.c-guestbook .item {
+  position: relative;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  background: var(--fourth-bg-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border-light-color);
+}
+.c-guestbook .item:last-child {
+  margin-bottom: 0;
+}
+.c-guestbook .item.empty {
+  text-align: center;
+  color: #aaa;
+  padding: 40px 0;
+}
+.c-guestbook .item.empty svg {
+  width: 24px;
+  height: 24px;
+  fill: #aaa;
+  display: block;
+  margin: 0 auto 10px;
+}
+.c-guestbook .item .name {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+.c-guestbook .item .date {
+  margin-right: 2px;
+  color: #aaa;
+  font-size: 0.625rem;
+  vertical-align: middle;
+}
+.c-guestbook .item .text {
+  line-height: 1.25rem;
+}
+.c-guestbook .item .close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  line-height: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.c-guestbook .item .close > .icon > svg {
+  width: 0.5rem;
+  height: 0.5rem;
+  vertical-align: middle;
+  fill: #aaa;
+}
+.c-guestbook .pagination-wrap {
+  width: calc(100% - 6rem);
+  display: inline-block;
+}
+.c-guestbook .pagination {
+  text-align: left;
+}
+.c-guestbook .pagination .btn {
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.pagination-number {
+  opacity: 0.8;
+  color: var(--title-text-color);
+}
+.pagination-active {
+  opacity: 1;
+  font-weight: 700;
+  z-index: 94;
+}
+.pagination svg {
+  fill: var(--title-text-color);
+}
+#app .c-guestbook-delete-modal button {
+  height: auto;
+  border-top: 1px solid var(--btn-dark-border-color);
+  background: var(--btn-dark-bg-color);
+  color: var(--btn-dark-text-color);
+}

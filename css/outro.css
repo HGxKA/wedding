@@ -1,0 +1,47 @@
+.c-outro[data-v-5042c914] {
+  padding: 50px 0;
+  line-height: 0;
+}
+.c-outro.stick-to-footer[data-v-5042c914] {
+  margin-bottom: -60px;
+  padding-bottom: 0;
+}
+.c-outro-inner[data-v-5042c914] {
+  position: relative;
+  background: #000;
+}
+.c-outro img[data-v-5042c914] {
+  width: 100%;
+  pointer-events: none;
+}
+.c-outro img.darken[data-v-5042c914] {
+  opacity: 0.8;
+}
+.c-outro-text[data-v-5042c914] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.3rem;
+  font-size: 0.86rem;
+  width: calc(100% - 3.6rem);
+  height: 100%;
+  padding: 0 1.8rem;
+  color: #fff;
+  text-shadow: 1px 1px 30px #000;
+  overflow: hidden;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+}
+.c-outro-text.center[data-v-5042c914] {
+  text-align: center;
+  justify-content: center;
+}
+.c-outro-text.left[data-v-5042c914] {
+  text-align: left;
+  justify-content: flex-start;
+}
+.c-outro-text.right[data-v-5042c914] {
+  text-align: right;
+  justify-content: flex-end;
+}

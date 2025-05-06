@@ -1,0 +1,106 @@
+.gallery-wrap {
+  margin: 1px 0;
+  padding: 50px 0;
+}
+.gallery-container {
+  margin: 40px 0 0;
+}
+
+.gallery-square {
+  margin: 0 16px;
+}
+.gallery-square .item {
+  width: calc(33.3% - 4px);
+  margin: 2px;
+}
+.gallery-grid {
+  margin: 0 16px;
+}
+.gallery-grid.grid2 {
+  margin: 0 32px;
+}
+.gallery-grid .item {
+  border-width: 2px;
+}
+.gallery-more-button {
+  color: var(--btn-text-color);
+  background: var(--btn-bg-color);
+  border: 1px solid var(--btn-border-color);
+  padding: 4px 26px;
+  border-radius: 32px;
+}
+.gallery-more-button > div {
+  border-bottom: 1px solid var(--btn-text-color);
+  border-right: 1px solid var(--btn-text-color);
+}
+#app .gallery-swipe-indicator .background {
+  background: var(--third-bg-color);
+}
+#app .gallery-swipe-indicator .indicator {
+  background: var(--icon-color);
+}
+#app .gallery-swipe-indicator .background[color="white"] {
+  background: var(--footer-bg-color);
+}
+#app .gallery-swipe-indicator .indicator[color="white"] {
+  background: #e6a79d;
+}
+
+.gallery-grid-container {
+  overflow: hidden;
+}
+.gallery-grid-container.transition {
+  -webkit-transition: max-height 1.5s ease-in;
+  -moz-transition: max-height 1.5s ease-in;
+  -ms-transition: max-height 1.5s ease-in;
+  transition: max-height 1.5s ease-in;
+}
+.gallery-grid {
+  display: grid;
+  grid-auto-flow: column;
+}
+.gallery-grid .item {
+  background-color: #eee;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-style: solid;
+  border-color: var(--primary-bg-color);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  cursor: pointer;
+}
+.gallery-more-button-wrap {
+  text-align: center;
+}
+.gallery-more-button {
+  display: inline-block;
+  margin: 20px auto 0;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.gallery-more-button > div {
+  display: inline-block;
+  width: 0.333rem;
+  height: 0.333rem;
+  margin-right: 6px;
+  transform: translate(-50%) rotate(45deg);
+  animation: bounce 1.5s ease-in-out infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-4px) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-1px) rotate(45deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-4px) rotate(45deg);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,26 @@
+.audio-alert {
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.audio-alert .icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-alert .icon svg {
+  fill: #333;
+  transition: all 0.3s ease;
+}
+
+.audio-alert:hover .icon svg {
+  fill: #666;
+}
+
+.audio-alert.muted .icon svg {
+  fill: #999;
+}

@@ -1,0 +1,147 @@
+.calendar-wrap {
+  padding: 30px 0;
+}
+.calendar-inner {
+  padding: 2.6rem 0 3rem;
+  color: var(--text-color);
+  background: var(--secondary-bg-color);
+  border: var(--border-size) solid var(--border-light-color);
+  border-left: 0;
+  border-right: 0;
+}
+.calendar-wrap .date {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: var(--title-text-color);
+  color: var(--text-dark-color);
+  color: var(--subtitle-text-color);
+  letter-spacing: 1px;
+  font-family: Crimson Pro;
+  opacity: 0.8;
+}
+.calendar-wrap .date .kr {
+  font-family: var(--font-regular);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.calendar-wrap .datetime {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding: 16px 30px;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+.calendar-wrap .hours {
+  margin-bottom: 1.25rem;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+.dday-wrap {
+  letter-spacing: -0.5px;
+  border-left: 0;
+  border-right: 0;
+  font-size: 0.9rem;
+}
+.dday-wrap span[pink] {
+  color: #ea7664;
+}
+.dday-wrap span[small] {
+  font-size: 0.7rem;
+}
+.dday-wrap .countdown {
+  font-family: Crimson Pro;
+  margin: 0 0 10px;
+}
+.dday-wrap .countdown > div {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 10px !important;
+  letter-spacing: 0;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+.dday-wrap .countdown > div > span {
+  display: inline-block;
+  font-size: 12px !important;
+  padding: 0 2px;
+  text-align: center;
+  line-height: 1.8rem;
+  color: var(--text-color);
+}
+.dday-wrap .countdown .card {
+  color: var(--text-dark-color);
+  font-size: 1.2rem !important;
+  width: 2rem;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  opacity: 0.8;
+}
+.dday-wrap .countdown .desc {
+  color: var(--text-dark-color);
+  opacity: 0.4;
+}
+.c-calendar {
+  padding: 0 10px;
+  margin: 2rem var(--calendar-margin-lr);
+  border: 1px solid var(--border-color);
+  border-left: 0;
+  border-right: 0;
+}
+.c-calendar-table {
+  padding: 1.5rem 0;
+}
+.c-calendar-table > tbody tr td:first-child,
+.c-calendar-table > thead tr th:first-child {
+  color: #c6472b !important;
+}
+.c-calendar-eday > div {
+  background: var(--icon-color);
+}
+.c-calendar-eday > .c-calendar-holiday {
+  opacity: 0.3;
+}
+.c-calendar-table > thead tr th {
+  padding-bottom: 8px;
+}
+#app .c-calendar-table {
+  line-height: 1.8rem;
+}
+
+.c-calendar-table {
+  margin: auto;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 2.375rem;
+}
+.c-calendar-table > thead tr th {
+  font-weight: unset;
+}
+.c-calendar-holiday,
+.c-calendar-table > tbody tr td:first-child,
+.c-calendar-table > thead tr th:first-child {
+  color: #c6472b;
+}
+.c-calendar-eday {
+  color: #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.c-calendar-eday > div {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 30px;
+}

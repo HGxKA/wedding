@@ -1,0 +1,149 @@
+.account-wrap {
+  margin: 1px auto;
+  padding: 40px var(--common-margin-lr);
+}
+.account-wrap .s-subtitle.brown {
+  filter: saturate(0.6);
+}
+.account-wrap svg {
+  width: 15px;
+  height: 14px;
+}
+.account-wrap > .content {
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+.c-account {
+  max-width: 100%;
+  margin: 2rem auto 0;
+  font-size: 0.9rem;
+}
+.c-account svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-top: -6px;
+}
+.c-account .title {
+  position: relative;
+  margin: 0 auto;
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+  color: var(--text-dark-color);
+  background: var(--third-bg-color);
+  border: 1px solid var(--border-dark-color);
+  border-radius: 6px;
+}
+.c-account .title.expand {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.c-account .title > .arrow {
+  position: absolute;
+  top: 9px;
+  right: 18px;
+  transform: rotate(0);
+  transition-duration: 0.5s;
+  transform-origin: center center;
+}
+.c-account .title > .arrow.rotate {
+  top: 8px;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+.c-account .text {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-out;
+  font-size: min(0.85rem, 16px);
+  border: 1px solid var(--border-light-color);
+  margin-top: -1px;
+}
+.c-account .text:first-child {
+  border-top: 0;
+}
+.c-account .text:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.c-account .text > .inner {
+  padding: 0.75rem 0 0.75rem 0.85rem;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: left;
+  background: var(--fourth-bg-color);
+}
+.c-account .btn-copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  cursor: pointer;
+  padding: 0 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.c-account .item {
+  margin-top: 12px;
+}
+.c-account .item:first-child {
+  border: 0;
+}
+.c-account .bank:after {
+  content: "";
+  margin: -1px 2px 0 6px;
+  width: 1px;
+  height: 12px;
+  background: #e5e5e5;
+  border-radius: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.c-account .btn-action {
+  position: absolute;
+  top: calc(0.75rem - 1px);
+  right: 0.75rem;
+  width: 54px;
+  cursor: pointer;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  border: 1px solid #e1e1e1;
+  color: #333;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 24px;
+}
+.c-account .btn-action > svg {
+  margin: -2px 2px 0 0;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+  fill: #999;
+}
+.c-account .btn-action.kakaopay {
+  top: calc(0.75rem + 28px);
+  background: #fbdf1d;
+  border-color: #fbdf1d;
+  font-size: max(11px, 0.6rem);
+}
+.c-account .btn-action.kakaopay svg {
+  vertical-align: middle;
+}
+.c-account .btn-action.kakaopay img {
+  vertical-align: middle;
+  width: 38px;
+}
+@media (max-width: 340px) {
+  .c-account,
+  .c-account .btn-action {
+    padding: 0;
+  }
+  .c-account .text {
+    font-size: 13px;
+  }
+}
